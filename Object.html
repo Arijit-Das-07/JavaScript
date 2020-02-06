@@ -1,0 +1,35 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>
+	</title>
+</head>
+<body>
+<h1></h1>
+</body>
+<script type="text/javascript">
+
+/*var Boy = {	
+	name :"Somu",
+	age :23,
+	good : true,
+	
+	display : function()
+	{
+		console.log(this);
+	}
+}*/
+
+function Boy(name,age,good){
+	this.name = name;
+	this.age = age;
+	this.good = good;
+	this.display = function()
+	{
+		console.log(this.name,this.age,this.good);
+	}
+}
+var b = new Boy("some",23,true)
+b.display();
+</script>
+</html>

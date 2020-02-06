@@ -1,0 +1,25 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>
+		Dom Manipulation
+	</title>
+	<script type="text/javascript">
+
+		function buttonclick(){
+			//alert("Button Pressed");
+			if(document.getElementById("heading").innerHTML=="Arijit Das")
+				document.getElementById("heading").innerHTML="Somu Das";
+			else
+				document.getElementById("heading").innerHTML="Arijit Das"
+
+	}	
+
+	</script>
+</head>
+<body>
+	<button onclick="buttonclick()"> Click me !!</button>
+	<h2 id="heading"> Arijit Das</h2>
+</body>
+
+</html>
